@@ -5,9 +5,10 @@ import MainNav from "../components/MainNav"
 const RootLayout = () => {
 	return (
 		<>
-			<h1>root</h1>
-			<MainNav></MainNav>
-			<Outlet />
+			<MainNav />
+			<main>
+				<Outlet />
+			</main>
 		</>
 	)
 }
